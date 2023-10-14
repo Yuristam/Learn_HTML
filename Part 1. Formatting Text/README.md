@@ -51,23 +51,27 @@
 `<ol></ol>` - Ordered list
 `<li></li>` - list item
 
->#### Unordered List
->
->`<ul>`
->`	<li> Item1 </li>`
->`	<li> Item2 </li>`
->`	<li> Item3 </li>`
->`	<li> Item4 </li>`
->`</ul>`
+#### Unordered List
 
->#### Ordered List
->
->`<ol>`
->`	<li> Item1 </li>`
->`	<li> Item2 </li>`
->`	<li> Item3 </li>`
->`	<li> Item4 </li>`
->`</ol>`
+```
+<ul>
+	<li> Item1 </li>
+	<li> Item2 </li>
+	<li> Item3 </li>
+	<li> Item4 </li>
+</ul>
+```
+
+#### Ordered List
+
+```
+<ol>
+	<li> Item1 </li>
+	<li> Item2 </li>
+	<li> Item3 </li>
+	<li> Item4 </li>
+</ol>
+```
 
 ---
 
@@ -77,16 +81,18 @@
 - `<dt></dt>` - definition term
 - `<dd></dd>` - definition description
 
->`<dl>`
->`	<dt>term1</dt>`
->`	<dd>description1</dd>`
->`	<dt>term2</dt>`
->`	<dd>description2</dd>`
->`	<dt>term3</dt>`
->`	<dd>description3</dd>`
->`	<dt>term4</dt>`
->`	<dd>description4</dd>`
->`</dl>`
+```
+<dl>
+	<dt>term1</dt>
+	<dd>description1</dd>
+	<dt>term2</dt>
+	<dd>description2</dd>
+	<dt>term3</dt>
+	<dd>description3</dd>
+	<dt>term4</dt>
+	<dd>description4</dd>
+</dl>
+```
 
 ---
 
@@ -97,12 +103,14 @@
 - `<blockquote></blockquote>` - block quote (to add author, use `<cite>`)
 - `<cite></cite>` - author's name in `<blockquote>` tag
 
->`<blockquote>`
->`	<p>`
->`        The journey of a thousand miles begins with one step.`
->`	</p>`
->`	<cite>Lao Tzu</cite>`
->`</blockquote>`
+```
+<blockquote>
+	<p>
+        The journey of a thousand miles begins with one step.
+	</p>
+	<cite>Lao Tzu</cite>
+</blockquote>
+```
 
 ---
 
@@ -110,11 +118,13 @@
 
 `<q></q>` - quotation marks (it changes the marks with attribute [lang = ""])
 
->`<p lang="en">`
->`    <q>`
->`        Big journeys begin with small steps.`
->`    </q>`
->`</p>`
+```
+<p lang="en">
+    <q>
+        Big journeys begin with small steps.
+    </q>
+</p>
+```
 
 ---
 
