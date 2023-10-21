@@ -2,7 +2,7 @@
 
 ## Audio
 
-> **&lt;audio**&gt; - element is used to place audio
+> **&lt;audio&gt;** - element is used to place audio
 > **src=""** - the path of the audio
 
 `<audio src="audio.mp3"></audio>`
@@ -46,7 +46,7 @@
 
 ## Video
 
-> **&lt;video**&gt; - element is used to place video
+> **&lt;video&gt;** - element is used to place video
 > **src=""** - the path of the video
 
 `<video src="video.mp4"></video>`
@@ -122,7 +122,7 @@
 
 ## Embedded Media
 
-> **&lt;iframe**&gt; - element is used to put embedded media
+> **&lt;iframe&gt;** - element is used to put embedded media
 
 ```
 <iframe width="600" height="315" 
