@@ -35,3 +35,6 @@
     </tr>
 </table>
 ```
+
+#### Html tip :
+> if you have a **button** use the ***button element***, if you have a **table** use the ***table element***
